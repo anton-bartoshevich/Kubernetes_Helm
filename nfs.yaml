@@ -28,5 +28,4 @@ provisioner: cluster.local/nfs-nfs-subdir-external-provisioner
 parameters:
   onDelete: "retain"
   pathPattern: "/wordpress/"
-  name: nfs-drupal
 
